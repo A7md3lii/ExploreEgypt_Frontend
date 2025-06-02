@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>Branches</title>
+        <style>
+            body{
+                background-image: url(front/img/egy1.jpg);
+                background-attachment: fixed;
+                background-repeat: round;
+            }
+            #login{
+                float: right;
+                margin-top: 14.5%;
+                margin-right: -20.3%;
+                background-color: #fee4cd;
+                border-radius: 16px;
+                border-color: #fee4cd;
+                border-width: 6px;
+                font-size: 35px;
+                color: #5c6c83;
+                width: 16.1%;
+            }
+            #login:hover{
+                float: right;
+                margin-top: 14.5%;
+                margin-right: -20.3%;
+                background-color: #fdc4a7;
+                border-radius: 16px;
+                border-color: #fdc4a7;
+                border-width: 6px;
+                font-size: 35px;
+                color: #000000;
+                width: 16.1%;
+            }
+            #singup{
+                float: right;
+                margin-top: 18.4%;
+                margin-right: -20.3%;
+                background-color: #fee4cd;
+                border-radius: 16px;
+                border-color: #fee4cd;
+                border-width: 6px;
+                font-size: 35px;
+                color: #5c6c83;
+                width: 307px;
+            }
+            #singup:hover{
+                float: right;
+                margin-top: 18.4%;
+                margin-right: -20.3%;
+                background-color: #fdc4a7;
+                border-radius: 16px;
+                border-color: #fdc4a7;
+                border-width: 6px;
+                font-size: 35px;
+                color: #000000;
+                width: 307px;
+            }
+            a{
+                margin-top: 20.8%;
+                margin-right: -14.3%;
+                font-size: 20px;
+                float: right;
+                font-weight: bold;
+                color: #5c6c83;
+            }
+            a:hover{
+                margin-top: 20.8%;
+                margin-right: -14.3%;
+                font-size: 20px;
+                float: right;
+                font-weight: bold;
+                color: #000000;
+            }
+            p{
+                margin-top: 6%;
+                margin-right: 420px;
+                font-size: 50px;
+                float: right;
+                color: #5b4f67;
+            }
+        </style>
+        <script>
+            function singup(){
+                window.location="front/SignUp.html";
+            }
+            function login(){
+                window.location="front/LoginPage.html";
+            }
+        </script>
+    </head>
+    <body>
+        <p>هلا بكم في موقع حول مصر</p>
+        <input type="button" id="login" value="تسجيل دخول" onclick="login()" onmousemove="Alogin()" onmouseout="Xlogin()">
+        <input type="button" id="singup" value="تسجيل" onclick="singup()" onmousemove="Asingup()" onmouseout="Xsingup()"><br>
+        <div>
+            <a href="front/Homepage.html" id="home" onmousemove="Ahome()" onmouseout="Xhome()"  align="center">تخطي الان</a>
+        </div>
+    </body>
+</html>
